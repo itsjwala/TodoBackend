@@ -41,7 +41,6 @@ public class Todo {
 		this.title = title;
 	}
 
-	
 	public boolean isCompleted() {
 		return isCompleted;
 	}
@@ -63,7 +62,5 @@ public class Todo {
 		return "Todo [id=" + id + ", title=" + title + ", isCompleted=" + isCompleted + ", createdOn=" + createdOn
 				+ "]";
 	}
-
-
 
 }
